@@ -24,6 +24,7 @@ const menuItems = [
   { icon: MessageSquare, label: "Messages", path: "/messages" },
   { icon: Bell, label: "Notifications", path: "/notifications" },
   { icon: Settings, label: "Settings", path: "/settings" },
+  { icon: ClipboardList, label: "Chat4Health", path: "/chat4health" },
 ];
 
 const Sidebar = () => {

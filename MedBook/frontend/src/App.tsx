@@ -22,6 +22,7 @@ import Messages from "./doctorDashboard/pages/Messages";
 import { Notifications } from "./doctorDashboard/pages/Notifications";
 import Settings from "./doctorDashboard/pages/Settings";
 import { ThemeProvider } from "./componenets/doctor/ThemeContext";
+import Chat4Health from "./componenets/patient/Chat4Health";
 import Realtime from "./pages/RealTime";
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
           <Route path="/messages" element={<MessagesPage />} />
           <Route path="/notifications" element={<NotificationsPage />} />
           <Route path="/settings" element={<SettingsPage />} />
+          <Route path="/chat4health" element={<Chat4Health />} />
         </Route>
 
         {/* Doctor Dashboard Routes */}
