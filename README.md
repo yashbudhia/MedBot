@@ -10,6 +10,9 @@ Just upload your heart related reports and ask any question!!
 # Approach used
 - GraphRAG can improve reasoning about complex relationships defined in guidelines, potentially leading to more accurate and interpretable assessments of adherence compared to standard RAG, which might struggle with synthesizing rules scattered across unstructured text snippets.   
 
+# UI glimpse - 
+![WhatsApp Image 2025-05-06 at 13 30 25_f135b7ff](https://github.com/user-attachments/assets/a5b90ebc-1852-4b3f-937f-0e41bcc27184)
+
 # How to run - 
 
 - Run all the servers 
@@ -32,8 +35,8 @@ Task: Extracting 18 different clinical variables from notes. Showed higher F1 sc
   
 - Wu et al. (RAG+CoT for Rare Disease) 
 Implementation: Integrated RAG with Chain-of-Thought (CoT) reasoning (both RAG-driven CoT and CoT-driven RAG). It retrieved information from Human Phenotype Ontology (HPO) and Online Mendelian Inheritance in Man (OMIM) databases using LLMs like DeepSeek and Llama 3. Analyzed Phenopacket notes, PubMed narratives, and CHOP notes.   
-Task: Prioritizing genes for rare disease diagnosis based on clinical notes. Outperformed baseline LLMs, achieving >40% top-10 accuracy on Phenopackets.   
-  
+Task: Prioritizing genes for rare disease diagnosis based on clinical notes. Outperformed baseline LLMs, achieving >40% top-10 accuracy on Phenopackets.
+
 - Ran et al. (Ram-EHR) 
 Implementation: Combined RAG with co-training. It used RAG to retrieve external knowledge (from knowledge graphs like UMLS) related to medical codes found in structured EHR data (MIMIC-III, eICU-RD) and co-trained a model to augment predictions. The specific LLM was not detailed in the summary table.   
 Task: Augmenting predictions made from structured EHR visit data (like predicting future conditions) using external knowledge. Improved prediction performance (AUROC, AUPR) over baselines.   
