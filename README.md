@@ -2,13 +2,19 @@
 
 # RAG based Heart suggestor chatbot
 
-Just upload your reports and ask any question!!
+Just upload your heart related reports and ask any question!!
 
 # architecture diagram -
 ![WhatsApp Image 2025-04-28 at 02 16 54_52ea6f50](https://github.com/user-attachments/assets/7e2649d1-442d-45c5-9023-1b21c3184358)
 
 # Approach used
 - GraphRAG can improve reasoning about complex relationships defined in guidelines, potentially leading to more accurate and interpretable assessments of adherence compared to standard RAG, which might struggle with synthesizing rules scattered across unstructured text snippets.   
+
+# How to run - 
+
+- Run all the servers 
+- Run the frontend
+- Put appropriate env keys
 
 # Inspired by - 
 
